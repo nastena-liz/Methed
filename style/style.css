@@ -8,6 +8,12 @@ html {
 
 body {
     font-family: Inter, sans-serif;
+    color: #232020;
+    min-width: 320px;
+    background-color: #ffffff ;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 .container {
@@ -19,5 +25,19 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+}
 
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-offset {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }

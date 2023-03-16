@@ -5,10 +5,10 @@
 
 }
 
-.container {
+/*.container {
     max-width: 1190px;
     margin: 0 auto;
-}
+}*/
 
 .header__container {
     display: flex;
@@ -16,13 +16,16 @@
     justify-content: space-between;
 }
 
-.header__button {
+.header__button{
     background-color: transparent;
     border: 1px solid #232020;
+
+}
+
+.button {
     border-radius: 24px;
     padding: 18px 40px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    color: black;
     text-transform: uppercase;
+    background-color: orange;
 }

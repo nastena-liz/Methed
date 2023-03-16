@@ -16,6 +16,7 @@
 
 <body>
     <header class="header">
+        <h1 class="visually-hidden">Теплый пол в каждый дом</h1>
         <div class="container header__container">
         <img class="header__logo" src="image/logo.svg" alt="Логотип (с солнцем и текстом) компании">
         <button class="header__button button">Заказать</button>
@@ -24,15 +25,57 @@
 
     <main>
         <section class="hero section-offset">
-            <div class="container hero__container"></div>
+        <div class="container hero__container">
+                <div class="hero__content grey-block">
+                    <h2 class="hero__title">Приносим тепло в каждый дом</h2>
+
+                    <p class="hero__description">Устанавливаем теплые полы в квартирах и домах</p>
+
+                    <a href="#calc" class="button link hero__link">Рассчитать стоимость</a>
+                 </div>
+
+            <div class="hero__slider-wrapper">
+                <div class="filling">
+                    <div class="filling">
+                        <div 
+                        class="filling hero__image" 
+                        style="background-image: url('../uh/image/hero-img-01.jpg');">
+                        </div>
+                    </div>
+                
+                <button class="hero__slider-btn hero__slider-btn_prev"></button>
+                <button class="hero__slider-btn hero__slider-btn_next"></button>
+                </div>
+            </div>
+        </div>
         </section>
 
         <section class="adv section-offset">
-            <div class="container adv__container"></div>
+            <div class="container advantages__container">
+               <h2 class="advantages__title">Наши преимущества</h2>
+
+                    <ul class="advantages__list.list-reset">
+                        <li class="advantages__item">Надежные материалы</li>
+                        <li class="advantages__item">опытные монтажники</li>
+                        <li class="advantages__item">Регулируемая температура пола</li>
+                        <li class="advantages__item">Защита от замыканий</li>
+                        <li class="advantages__item">Гарантия до 10 лет</li>
+                    </ul>
+            </div>
         </section>
 
-        <section class="calc section-offset">
-            <div class="container calc__container"></div>
+        <section class="calc section-offset" id="calc">
+            <div class="container calc__container">
+                <div class="calc__content grey-block">
+                    <h2 class="calc__title">Рассчитать стоимость</h2>
+
+                    <form class="calc__form">
+                        <fieldset></fieldset>
+                        <fieldset></fieldset>
+                        <button class="button" type="submit"></button>
+                    </form>
+                </div>
+            </div>
         </section>
 
     </main>
